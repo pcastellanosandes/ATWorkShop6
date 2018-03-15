@@ -142,7 +142,7 @@ var blue = numberToHex(b);
 return "#"+red+green+blue;
 };
 
-function numberToHex (number) {
+function numberToHex (number) { 
   var hex = Number(number).toString(16);
   if (hex.length < 2) {
        hex = "0" + hex;
